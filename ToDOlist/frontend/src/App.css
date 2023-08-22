@@ -1,0 +1,17 @@
+/* styles.css */
+.navbar-custom {
+  background-color: #3498db; /* Color de fondo principal */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #ffffff; /* Color de texto */
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-color: #ffffff; /* Color del ícono del botón desplegable */
+}
+
+.navbar-custom .navbar-toggler {
+  border-color: #ffffff; /* Color del borde del botón desplegable */
+}
