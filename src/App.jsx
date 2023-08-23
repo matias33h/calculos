@@ -1,6 +1,6 @@
 
 // import Main from './components/main'
-import App2 from './components/navbar'
+import Navbar from './components/navbar'
 
 const App = () => {
 
@@ -9,7 +9,7 @@ const App = () => {
 
     <div className="App">
 
-      <App2/>
+      <Navbar/>
 
     </div>
 

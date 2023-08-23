@@ -1,4 +1,4 @@
-/* styles.css */
+styles.css
 .navbar-custom {
   background-color: #3498db; /* Color de fondo principal */
 }
@@ -13,5 +13,5 @@
 }
 
 .navbar-custom .navbar-toggler {
-  border-color: #ffffff; /* Color del borde del botón desplegable */
+  border-color: #a81414; /* Color del borde del botón desplegable */
 }

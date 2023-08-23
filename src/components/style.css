@@ -1,0 +1,108 @@
+/* style.css */
+
+/* Estilo para el componente principal que ocupa todo el alto y ancho */
+/* Estilo para el encabezado */
+/* style.css */
+
+/* Estilo para el navbar */
+
+/* Estilo para el mensaje de error */
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+
+/* style.css */
+
+/* Estilo para el componente principal que ocupa todo el alto y ancho */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 10px; */
+  padding-left: 650px;
+  /* min-height: 50vh; Al menos 100% del alto de la ventana */
+  padding-top: 10px; /* Ajusta esta propiedad para mover el contenido hacia arriba */
+  padding-bottom: 10%; /* Ajusta esta propiedad para mover el contenido hacia arriba */
+  min-height: 10%; /* Al menos 100% del alto de la ventana */
+  max-height: 5%; /* Al menos 100% del alto de la ventana */
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+  background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
+
+  background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el contenedor */
+  
+}
+
+
+/* style.css */
+
+/* Estilo para el elemento de fondo */
+
+
+/* App.css */
+
+/* Estilo para el contenedor principal de la aplicación */
+/* style.css */
+
+/* Estilo para el cuerpo de la página (body) */
+body {
+  background-image: url('../assets/sssssss4.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ruta de tu imagen */
+  margin: 0; /* Elimina el margen predeterminado del cuerpo */
+  padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+  background-size: cover; /* Ajusta la imagen para cubrir toda la página */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+  background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
+  font-family: Arial, sans-serif; /* Cambia la fuente de texto si es necesario */
+}
+
+
+
+/* Estilo para el componente principal que ocupa todo el alto y ancho */
+
+/* Estilo para el encabezado (navbar) */
+.navbar {
+  background-color: #1662ad;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1; /* Para superponer sobre el contenido */
+  width: 100%;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* Estilo para la navegación */
+.navbar-nav .nav-link {
+  color: #10693d;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Estilo para el contenido */
+.content-container {
+  margin-top: 80px; /* Ajusta según el tamaño del navbar */
+}
+
+/* Estilo para el mensaje de error */
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+
+/* Cambiar el color del texto del navbar a blanco */
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(73, 155, 41) !important; /* Importante para anular otros estilos */
+}
+
+/* Cambiar el color del texto del navbar al pasar el mouse (hover) */
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #247cd4 !important; /* Cambia el color al pasar el mouse (puedes ajustar el color según tus preferencias) */
+}
